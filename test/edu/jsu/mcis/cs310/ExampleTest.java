@@ -18,7 +18,7 @@ public class ExampleTest {
         expectedReverse1 = "topaeT elttiL a m'I";
         expectedReverse2 = "elddiD elddiD yeH";
         expectedReverse3 = "kcoD yrokciD yrokciH";
-        expectedMyNewstring = "tibbaR evoL I";
+        expectedMyNewstring = "torraP evoL I";
     }
         
     @Test
@@ -52,8 +52,9 @@ public class ExampleTest {
     }
     @Test
     public void testMyNewstring(){
-        string actual = main.reverse("I love Rabbit!");
+        string actual = main.reverse("I love Parrot!");
         assertEqual(expectedMyNewstring, actual);
     }
+    
     
 }
